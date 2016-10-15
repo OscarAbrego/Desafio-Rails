@@ -1,0 +1,19 @@
+.batman {
+  // height: 100%;
+  width: 100%;
+  background-image: image-url("batmanback.jpg");
+  // background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 80px;
+  box-shadow: 3px 3px 3px 3px black;
+  text-align: center;
+}
+ .box {
+   background-color: white;
+ }
