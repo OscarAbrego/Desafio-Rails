@@ -1,20 +1,9 @@
-class PagesController < ApplicationController
-
+class VotesController < ApplicationController
   before_action :set_vote, only: [:show, :edit, :update, :destroy]
-  def batman
-  end
 
-  def superman
-  end
-
-  def batman_vs_superman
+  def index
     @votes =  Vote.all
-
   end
-
-  # def index
-  #   @votes =  Vote.all
-  # end
 
   def new
     @vote = Vote.new
