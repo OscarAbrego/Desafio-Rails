@@ -3,21 +3,7 @@
     <div class="">
       <%=link_to image_tag("batmanback.jpg"), pages_batman_path , class: "img-responsive" %>
     </div>
-    <div class="container">
-        <%= form_for(@vote) do |f| %>
 
-          <%= f.label :email %>
-          <%= f.text_field :email %>
-
-          <%= f.label :heroe %>
-          <%= f.text_field :heroe %>
-
-          <div class="actions">
-            <%= f.submit nil, class: 'btn btn-primary' %>
-            <!-- <%= link_to "Cancel", items_path, class: 'btn btn-default' %> -->
-          </div>
-        <% end %>
-    </div>
   </div>
   <div class="heroeSec col-xs-6">
     <div class="">
